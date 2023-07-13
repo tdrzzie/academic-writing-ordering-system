@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	
+	<layout name="edit" label="Place Order" description="The form for creating new order">
+		<fields></fields>
+	</layout>
+	
+	<layout name="default" label="View Order" description="This loads and order">
+		<fields></fields>
+	</layout>
+	
+</form>

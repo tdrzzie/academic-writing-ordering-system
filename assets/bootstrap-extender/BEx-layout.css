@@ -1,0 +1,134 @@
+/* ******************** Media Queries ******************************* */
+
+/* ********** Small Screens between 0 to 479px width **************** */
+@media only screen and (min-device-width : 0) and (max-width : 479px) {
+	.BEx [class*="col-"]{ display:block !important; }
+	.BEx .col-1, .BEx .col-2, .BEx .col-3, .BEx .col-4, .BEx .col-5, .BEx .col-6, .BEx .col-7, .BEx .col-8, .BEx .col-9, .BEx .col-10{ width:100% !important; }
+	.BEx header, .BEx .content, .BEx footer{
+		margin:auto 1px;
+	}
+}
+
+/* ********** Mobile and Tablets screens **************** */
+@media only screen and (min-width : 480px) and (max-width : 719px) {
+	
+	.BEx [class*="col-"]{ display:block !important; }
+	.BEx .col-1, .BEx .col-2, .BEx .col-3, .BEx .col-4, .BEx .col-5, .BEx .col-6, .BEx .col-7, .BEx .col-8, .BEx .col-9, .BEx .col-10{ width:100% !important; }
+	.BEx header, .BEx .content, .BEx footer{
+		margin:auto 2px;;
+	}
+	
+	.BEx [class*="ms-col-"]{
+		display:inline-block !important;
+		vertical-align:top !important;
+		box-sizing:border-box;
+	}
+	.BEx .ms-col-1{ width:calc(10% - 3px) !important; }
+	.BEx .ms-col-2{ width:calc(20% - 3px) !important; }
+	.BEx .ms-col-3{ width:calc(30% - 3px) !important; }
+	.BEx .ms-col-4{ width:calc(40% - 3px) !important; }
+	.BEx .ms-col-5{ width:calc(50% - 3px) !important; }
+	.BEx .ms-col-6{ width:calc(60% - 3px) !important; }
+	.BEx .ms-col-7{ width:calc(70% - 3px) !important; }
+	.BEx .ms-col-8{ width:calc(80% - 3px) !important; }
+	.BEx .ms-col-9{ width:calc(90% - 3px) !important; }
+	.BEx .ms-col-10{width:calc(100% - 3px) !important; }
+	
+	.BEx .ms-hide{
+		display:none !important;
+	}
+	
+	.BEx .ms-suspended-menu{
+		position:absolute;
+		display:none;
+	}
+	
+	.BEx nav ul{
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+	
+	.BEx nav ul li a{
+		display:inline-block;
+		width:100%;
+		padding:5px;
+	}
+}
+
+/* ********** Mobile and Tablets Landscaped screens **************** 
+@media only screen and (min-width : 480px) and (max-width : 719px) and (orientation: landscape) {
+	
+}*/
+
+/* *********************** Desktop and Big Screens ***************** */
+@media only screen and (min-width : 720px) and (max-width : 2500px){
+	
+	/******* Hide elements that should not be seen on big screen */
+	.BEx .ms{
+		display:none;
+	}
+	
+	.BEx header, .BEx .content, .BEx footer{
+		margin:auto 10% 5px 10%;
+	}
+	
+	/* ***************** Columns ******************************* */
+	.BEx [class*="col-"]{
+		display:inline-table;
+		vertical-align:top;
+		box-sizing:border-box;
+	}
+	
+	.BEx .col-1{ width:calc(10% - 3px); }
+	.BEx .col-2{ width:calc(20% - 3px); }
+	.BEx .col-3{ width:calc(30% - 3px); }
+	.BEx .col-4{ width:calc(40% - 3px); }
+	.BEx .col-5{ width:calc(50% - 3px); }
+	.BEx .col-6{ width:calc(60% - 3px); }
+	.BEx .col-7{ width:calc(70% - 3px); }
+	.BEx .col-8{ width:calc(80% - 3px); }
+	.BEx .col-9{ width:calc(90% - 3px); }
+	.BEx .col-10{width:calc(100% - 3px); }
+	
+	/* ************************ menus ******************************* */
+	.BEx nav ul{
+		padding:0;
+		margin:0;
+	}
+	
+	.BEx nav ul.horizontal li{
+		vertical-align:middle;
+		display:inline-block;
+		box-sizing: border-box;
+	}
+	
+	.BEx nav a{
+		padding:5px;
+	}
+}
+
+/* ******************** Common Elements ***************************** */
+.BEx{
+	margin:0;
+	padding:0;
+}
+
+.BEx a{
+	text-decoration:none;
+}
+
+.BEx .container-fluid{
+	/*background:#FC0;*/
+}
+
+.BEx [class*="col-"]{
+	padding:5px 10px;
+	box-sizing: border-box;
+	margin-right:0;
+}
+
+.BEx .-ms{
+		display:none;
+	}
+

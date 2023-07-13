@@ -1,0 +1,36 @@
+@import url("../bootstrap/css/bootstrap.min.css");
+@import url("../bootstrap/css/bootstrap-theme.min.css");
+@import url("../bootstrap-extender/BEx-layout.css");
+
+.orders .tab-pane{
+	padding:20px 5px;
+}
+
+.orders .table{
+	
+}
+
+.orders .table tr, .orders .table td{
+	border:none !important;
+}
+
+.orders .table thead td{
+	font-weight:bold !important;
+	font-size:14px !important;
+}
+
+.orders .table tr{
+	border-bottom:1px #CCC solid;
+}
+
+.orders .table tbody tr:nth-child(even){
+	background:#EAEAEA !important;
+}
+
+.orders .table tbody tr:hover{
+	background:#F3F3F3 !important;
+}
+
+/*[class*="-danger"], [class*="-warning"], [class*="-success"]{
+	padding:5px 10px;
+}*/

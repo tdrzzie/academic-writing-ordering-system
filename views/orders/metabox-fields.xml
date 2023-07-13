@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	
+	<layout name="default" label="Order Listing" description="A list of orders posted">
+	
+		<fields name="orders" label="Order Listing" description="A list of orders posted">
+			<select name="status" label="Order Status" description="Filter order by this status">
+				<option value="my_projects">My Orders</option>
+				<option value="Pending">Pending Orders</option>
+				<option value="Assigned">In Progress</option>
+				<option value="Revision">Revision</option>
+				<option value="Completed">Complete Orders</option>
+				<option value="Rejected">Rejected Orders</option>
+				<option value="Unpaid">Unpaid</option>
+				<option value="Paid">Paid</option>
+			</select>
+		</fields>
+		
+	</layout>
+	
+</form>
